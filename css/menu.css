@@ -1,0 +1,67 @@
+.nav.navbar-nav {
+    float: left;
+    transition: all ease-in-out .3s;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.nav.navbar-nav>li {
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin: 0px 6px;
+}
+
+.nav.navbar-nav > li > a {
+    line-height: 3.5;
+    font-size: 15px;
+    -webkit-transition: all .3s ease-in-out 0;
+    -moz-transition: all .3s ease-in-out 0;
+    -ms-transition: all .3s ease-in-out 0;
+    -o-transition: all .3s ease-in-out 0;
+    transition: all .3s ease-in-out 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.5px;
+    padding: 0;
+    color: #333;
+    position: relative;
+    font-weight: 600;
+}
+
+
+
+
+ .mega-dropdown {
+	position: static !important;
+}
+.mega-dropdown-menu {
+	padding:10px 0px;
+	width: 100%;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+	padding: 0;
+	margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+	list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+	display: block;
+	color: #222;
+	padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover, .mega-dropdown-menu > li ul > li > a:focus {
+	text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+	font-size: 18px;
+	color: #ff3546;
+	padding: 5px 60px 5px 5px;
+	line-height: 30px;
+}
+
+.zonehead {
+	color:#00d300!important; text-align:center; font-size:22px;
+}
+ 
